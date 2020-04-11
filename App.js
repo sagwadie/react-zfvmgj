@@ -99,7 +99,7 @@ class App extends Component {
     return (
       <div>
        
-        <ReactDependentScript scripts={['https://maps.googleapis.com/maps/api/js?key=AIzaSyCNLJEnc7_1yZB-2KKMxgLQcwiJqTS7U_k']}>
+        <ReactDependentScript scripts={['https://maps.googleapis.com/maps/api/js?key=AIzaSyBm8qn1DV8a5e_vBG7OLkqP4_SBGaZuD3A']}>
           <Map center={{ lat: -26.07000, lng: 27.98000 }} zoom={25} data={data} selectedItem={this.state.selectedItem} />
         </ReactDependentScript>
       </div>
